@@ -1,5 +1,5 @@
 import React from "react";
-import fantasyBooks from "../assets/Fantasy.json"; // Modifica il nome del file JSON!
+import fantasyBooks from "../assets/Fantasy.json";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
 const AllTheBooks = () => {
