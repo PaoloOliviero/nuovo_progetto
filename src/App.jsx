@@ -6,6 +6,7 @@ import "./App.css";
 import ButtonComponent from "./components/ButtonComponent";
 import ClassImage from "./components/ClassImage";
 import MyNav from "./components/MyNav";
+import MyFooter from "./components/MyFooter";
 
 const App = () => {
   return (
@@ -18,6 +19,9 @@ const App = () => {
         alt="Immagine"
         width={300}
       />
+      <div className="container">
+        <MyFooter />
+      </div>
     </div>
   );
 };
