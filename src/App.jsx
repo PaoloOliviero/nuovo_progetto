@@ -7,6 +7,8 @@ import ButtonComponent from "./components/ButtonComponent";
 import ClassImage from "./components/ClassImage";
 import MyNav from "./components/MyNav";
 import MyFooter from "./components/MyFooter";
+import Welcome from "./components/Welcome.jsx";
+import AllTheBooks from "./components/AllTheBooks.jsx";
 
 const App = () => {
   return (
@@ -22,6 +24,12 @@ const App = () => {
       <div className="container">
         <MyFooter />
       </div>
+      <div>
+        <Welcome />
+      </div>
+      <di>
+        <AllTheBooks />
+      </di>
     </div>
   );
 };
