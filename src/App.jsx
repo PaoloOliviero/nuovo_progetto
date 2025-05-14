@@ -8,7 +8,10 @@ import ClassImage from "./components/ClassImage";
 import MyNav from "./components/MyNav";
 import MyFooter from "./components/MyFooter";
 import Welcome from "./components/Welcome.jsx";
-import AllTheBooks from "./components/AllTheBooks.jsx";
+//import AllTheBooks from "./components/AllTheBooks.jsx";
+import SingleBook from "./components/SingleBook.jsx";
+import fantasyBooks from "./assets/fantasy.json";
+import BookList from "./components/BookList.jsx";
 
 const App = () => {
   return (
@@ -27,9 +30,12 @@ const App = () => {
       <div>
         <Welcome />
       </div>
-      <di>
-        <AllTheBooks />
-      </di>
+      <div>
+        <SingleBook book={fantasyBooks[0]} />
+      </div>
+      <div>
+        <BookList books={fantasyBooks} />
+      </div>
     </div>
   );
 };
